@@ -1,0 +1,15 @@
+text = input("Enter the text that you want!!!")
+print(text)
+print()
+
+mystring = "Helloworld"
+
+print(len(mystring))
+print()
+
+slicestring = mystring[5:8]
+print(slicestring)
+print()
+
+reversedstring = mystring[::-1]
+print(reversedstring)
