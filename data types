@@ -1,0 +1,15 @@
+age = 15
+print("type of age: ", type(age))
+
+weight = 40.5
+print("type of weight: ", type(weight))
+
+name = "hamdan"
+print("type of name: ", type(name))
+
+isMale = True
+print("type of ismale: ", type(isMale))
+
+
+
+
