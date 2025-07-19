@@ -1,0 +1,10 @@
+x = 10  #int
+y = 20
+
+
+
+print("Addition is ", x + y)
+print("multiplication is ",x*y)
+print("subtraction is ",y-x)
+print("division is ",24/5)
+print("remainder is ",24%5)
