@@ -1,0 +1,6 @@
+temperature = float(input("What's the temperature? "))
+
+if temperature >= 22: # Adjusted threshold for "light and soft" based on a slightly warmer preference
+    print("Perfect for light and soft clothes!")
+else:
+    print("Better stick to something warmer for now.")
