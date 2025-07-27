@@ -1,0 +1,32 @@
+print("Select your ride: ")
+print("1. Bike")
+print("2. Car")
+
+choice = int(input("Enter your choice:"))
+
+
+if( choice == 1 ):
+    print("what type of bike? ")
+    print("1.Scooty")
+    print("2.Scooter")
+    choicebike=int(input("Enter you choice:"))
+    if choicebike ==1:
+      print("you have selected scooty")
+    else:
+     print("you have selected scooter")
+
+
+elif choice == 2:
+
+    print("what type of car? ")
+    print("1.Sedan")
+    print("2.XUV")
+    choicecar=int(input("enter your choice of the car: "))
+    if choicecar==1:
+        print("you have selected mercadezs")
+    else:
+        print("you have selected bmw")
+
+
+else:
+        print("invalid choice")
