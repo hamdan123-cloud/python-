@@ -1,10 +1,5 @@
-x = 10  #int
-y = 20
+import math
 
-
-
-print("Addition is ", x + y)
-print("multiplication is ",x*y)
-print("subtraction is ",y-x)
-print("division is ",24/5)
-print("remainder is ",24%5)
+num = float(input("Enter a number: "))
+sqrt_num = math.sqrt(num)
+print(f"Square root: {sqrt_num}")
