@@ -1,0 +1,8 @@
+
+congrat_word = "congratulations"
+
+
+uppercase_word = congrat_word.upper()
+
+
+print(uppercase_word)
